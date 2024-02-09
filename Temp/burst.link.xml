@@ -1,0 +1,44 @@
+<linker>
+ <assembly fullname="Unity.Burst">
+  <type fullname="Unity.Burst.LowLevel.BurstCompilerService">
+   <method name="GetOrCreateSharedMemory"/>
+  </type>
+  <type fullname="Unity.Burst.LowLevel.BurstCompilerService">
+   <method name="RuntimeLog"/>
+  </type>
+ </assembly>
+ <assembly fullname="Unity.Collections">
+  <type fullname="Unity.Collections.AllocatorManager.SharedStatics.TableEntry">
+   <method name=".cctor"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="Malloc"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="Free"/>
+  </type>
+ </assembly>
+ <assembly fullname="UnityEngine.CoreModule">
+  <type fullname="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
+   <method name="GetWorkStealingRange"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccessArray">
+   <method name="GetSortedToUserIndex"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccessArray">
+   <method name="GetSortedTransformAccess"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetWorldToLocalMatrix"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="FreeTracked"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="MallocTracked"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetLocalToWorldMatrix"/>
+  </type>
+ </assembly>
+</linker>
